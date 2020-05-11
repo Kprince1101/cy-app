@@ -23,10 +23,10 @@ const AboutTheApp = () => {
             { index === 1 && <ListItemText primary={text} style={{fontDecoration: 'underline', color: 'blue'}} onClick={() => window.open('https://github.com/gregnb/mui-datatables', '_blank')} /> }
             { index === 2 && <ListItemText primary={text} style={{fontDecoration: 'underline', color: 'blue'}} onClick={() => window.open('https://www.npmjs.com/package/hookrouter', '_blank')} /> }
             { index === 3 && <ListItemText primary={text} style={{fontDecoration: 'underline', color: 'blue'}} onClick={() => window.open('https://www.npmjs.com/package/axios', '_blank')} /> }
-
           </ListItem>
         ))}
       </List>
+      <Typography variant="h3" style={{fontDecoration: 'underline', color: 'blue', cursor:'pointer'}} onClick={() => window.open('https://github.com/Kprince1101/cy-app', '_blank')}>Repository </Typography>
     </div>
   );
 };
