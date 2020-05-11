@@ -1,0 +1,1 @@
+export const baseUrl = "https://3oh4g0arik.execute-api.us-east-2.amazonaws.com/dev/compare-yourself";
