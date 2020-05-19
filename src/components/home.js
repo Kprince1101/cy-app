@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 
 const Home = () => {
-  const user = "Kristopher Prince";
+  const user = "User";
 
   return (
     <>

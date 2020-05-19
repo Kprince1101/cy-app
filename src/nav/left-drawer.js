@@ -117,7 +117,7 @@ export default function PersistentDrawerLeft() {
   const theme = useTheme();
   const routeResult = useRoutes(routes);
   const [user /*setUser*/] = useState({
-    name: "Kris Prince",
+    name: "User.Name",
     mail: [],
     notifications: [],
   });
