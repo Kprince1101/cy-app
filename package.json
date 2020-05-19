@@ -1,5 +1,6 @@
 {
   "name": "cy-app",
+  "homepage": "http://cy-app2.s3-website.us-east-2.amazonaws.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
